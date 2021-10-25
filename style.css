@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+section{
+    padding:5rem 16rem;
+}
+h1{
+    font-size: 30px;
+    padding: 16px 0;
+}
+h2{
+    font-size: 25px;
+    padding: 16px 0;
+}
+h3{
+    font-size: 20px;
+    padding: 16px 0;
+}
+
+/* Progress-bar */
+#progress-bar{
+    position: fixed;
+    height: 4px;
+    top:0;
+    left: 0;
+    background: linear-gradient(to right, rgb(240, 74, 74),rgb(231, 156, 57));
+    width: 0%;
+    z-index: 1000;
+    transition: .1s ease;
+}
